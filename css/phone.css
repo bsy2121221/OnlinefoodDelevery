@@ -1,0 +1,36 @@
+/* Navigation */
+#navbar{
+    flex-direction: column;
+}
+#navbar::before{
+    padding: 0px 57px;
+}
+#navbar ul li a{
+    font-size: 0.6rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+/* services */
+#services{
+    flex-direction: column;
+}
+
+#home{
+    height: 280px;
+    padding: 3px 280px;
+}
+#home::before{
+    height: 74%;
+    padding: 0px 99px;
+}
+#home p{
+    font-size: 7px;
+}
+
+#home h2{
+    font-size: 30px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+} 
